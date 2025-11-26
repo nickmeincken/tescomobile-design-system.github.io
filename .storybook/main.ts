@@ -19,7 +19,7 @@ const config: StorybookConfig = {
       "disableMDXEntries": false,
     },
   },
-  "staticDirs": ["../public", "../src/assets/*"],
+  "staticDirs": ["../public", "../src/assets/"],
   "framework": {
     "name": "@storybook/web-components-vite",
     "options": {}
