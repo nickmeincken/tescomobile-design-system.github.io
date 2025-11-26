@@ -1,5 +1,0 @@
-import{j as e,M as i}from"./WithTooltip-SK46ZJ2J-CZO02xmM.js";import{useMDXComponents as n}from"./index-DOcGFbAE.js";import"./preload-helper-PPVm8Dsz.js";import"./iframe-tFOvUPk9.js";import"./_commonjsHelpers-CqkleIqs.js";function s(o){const t={h2:"h2",p:"p",...n(),...o.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"Welcome to Tesco Mobile"}),`
-`,e.jsx("svg",{"data-src":"/tescomobile-logo.svg",className:"logo"}),`
-`,e.jsx(t.h2,{id:"welcome-to-the-tesco-mobile-design-system",children:"Welcome to the Tesco Mobile Design system"}),`
-`,e.jsx(t.p,{children:"In here we will define a set of reusable styles that are platform agnostic, allowing for portability and ease of use. This should allow developers to focus on on the features and not have to worry about the styling."}),`
-`,e.jsx(t.p,{children:"We hope to extend on this design library to include as much of the ecosystem as possible."})]})}function h(o={}){const{wrapper:t}={...n(),...o.components};return t?e.jsx(t,{...o,children:e.jsx(s,{...o})}):s(o)}export{h as default};

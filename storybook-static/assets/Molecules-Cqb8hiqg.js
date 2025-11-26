@@ -1,3 +1,0 @@
-import{j as t,M as r}from"./WithTooltip-SK46ZJ2J-CZO02xmM.js";import{useMDXComponents as s}from"./index-DOcGFbAE.js";import"./preload-helper-PPVm8Dsz.js";import"./iframe-tFOvUPk9.js";import"./_commonjsHelpers-CqkleIqs.js";function n(e){const o={h1:"h1",p:"p",...s(),...e.components};return t.jsxs(t.Fragment,{children:[t.jsx(r,{title:"Design System/Molecules/Intro"}),`
-`,t.jsx(o.h1,{id:"molecules",children:"Molecules"}),`
-`,t.jsx(o.p,{children:"Molecules are groups of Atoms that put together to form a basic structure."})]})}function a(e={}){const{wrapper:o}={...s(),...e.components};return o?t.jsx(o,{...e,children:t.jsx(n,{...e})}):n(e)}export{a as default};

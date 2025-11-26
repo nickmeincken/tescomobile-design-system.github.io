@@ -1,3 +1,0 @@
-import{j as t,M as r}from"./WithTooltip-SK46ZJ2J-CZO02xmM.js";import{useMDXComponents as o}from"./index-DOcGFbAE.js";import"./preload-helper-PPVm8Dsz.js";import"./iframe-tFOvUPk9.js";import"./_commonjsHelpers-CqkleIqs.js";function s(n){const e={h1:"h1",p:"p",...o(),...n.components};return t.jsxs(t.Fragment,{children:[t.jsx(r,{title:"Design System/Organisms/Intro"}),`
-`,t.jsx(e.h1,{id:"organisms",children:"Organisms"}),`
-`,t.jsx(e.p,{children:"Organisms take Molecules a step further and create a lot more complexity"})]})}function x(n={}){const{wrapper:e}={...o(),...n.components};return e?t.jsx(e,{...n,children:t.jsx(s,{...n})}):s(n)}export{x as default};

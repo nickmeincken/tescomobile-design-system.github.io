@@ -1,3 +1,0 @@
-import{j as t,M as r}from"./WithTooltip-SK46ZJ2J-CZO02xmM.js";import{useMDXComponents as s}from"./index-DOcGFbAE.js";import"./preload-helper-PPVm8Dsz.js";import"./iframe-tFOvUPk9.js";import"./_commonjsHelpers-CqkleIqs.js";function o(e){const n={h1:"h1",p:"p",...s(),...e.components};return t.jsxs(t.Fragment,{children:[t.jsx(r,{title:"Design System/Pages/Intro"}),`
-`,t.jsx(n.h1,{id:"pages",children:"Pages"}),`
-`,t.jsx(n.p,{children:"Pages are just a good visual example of how our content would look"})]})}function u(e={}){const{wrapper:n}={...s(),...e.components};return n?t.jsx(n,{...e,children:t.jsx(o,{...e})}):o(e)}export{u as default};
