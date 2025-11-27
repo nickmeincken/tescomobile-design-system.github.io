@@ -43,3 +43,35 @@
   height: 5rem;
   width: 5rem;
 }
+
+.example-row {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.example {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 2rem;
+}
+
+.example-row > div,
+.example > div {
+  background-color: rgba(0,0,0,0.5);
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-row > div p,
+.example > div p {
+  background-color: var(--white);
+  margin:0;
+}
+
+.example-gap,
+.example-row {
+  background-color: pink;
+}

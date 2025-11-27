@@ -67,5 +67,6 @@ body {
   color: var(--font-color);
   font-family: var(--primary-font);
   font-size: var(--base-font);
+  font-weight: var(--font-weight-normal);
   line-height: var(--line-height-base);
 }
