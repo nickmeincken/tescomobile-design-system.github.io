@@ -41,15 +41,15 @@
   --bodybg:                 var(--color-white-smoke);
   --fontcolour:             var(--color-grey);
   --link:                   var(--color-blue);
-  --linkhover:              var(--color-grey)
+  --linkhover:              var(--color-grey);
   --linkactive:             var(--color-grey);
 
   --gutter-padding:         0;
   --text-color:             var(--color-grey);
 
   --brand:                  var(--color-blue);
-  --white:                  var(--color-white);
-  --black:                  var(--color-black);
+  --white:                  #fff;
+  --black:                  #000;
 
   /* Typography */
   --primary-font:           TESCOModern;

@@ -16,6 +16,7 @@ export const Button = ({ hierachy, size, label, onClick }: ButtonProps) => {
       @click=${onClick}
     >
       ${label}
+      <svg class="icon"><use xlink:href="./svg/sprite.svg#forward"></use></svg>
     </button>
   `;
 };
