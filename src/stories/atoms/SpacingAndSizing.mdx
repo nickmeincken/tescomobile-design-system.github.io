@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/addon-docs/blocks';
+import { Meta, Unstyled } from '@storybook/addon-docs/blocks';
 
 <Meta title="Design System/Atoms/Spacing & Sizing" />
 
@@ -6,3 +6,229 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 - `m` - for classes that set `margin`
 - `p` - for classes that set `padding`
+
+direction
+- `t` = top
+- `b` = bottom
+- `l` = left
+- `r` = right
+- `x` = left & right
+- `y` = top & bottom
+
+sizing
+
+- `0` = 0
+- `1` = 0.5rem
+- `2` = 1rem
+- `3` = 2rem
+- `4` = 4rem
+- `5` = 8rem
+- `6` = 16rem
+- `7` = 32rem
+- `8` = 64rem
+- `9` = 128rem
+
+chaining these together in this some order
+
+`mt-0` = `margin-top: 0;`
+
+`pt-0` = `padding-top: 0;`
+
+<Unstyled>
+
+If we're spacing block level elements, it might be benefecial to use `gap`
+
+Gap = 0.5rem
+<div className="example example-gap gap-1">
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+</div>
+```
+<div className="gap-1">
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+  <div>gap 0.5rem</div>
+</div>
+```
+
+Gap = 1rem
+<div className="example example-gap gap-2">
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+</div>
+```
+<div className="gap-2">
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+</div>
+```
+
+Gap = 2rem
+<div className="example example-gap gap-3">
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+</div>
+
+```
+<div className="gap-3">
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+</div>
+```
+
+Gap = 4rem
+<div className="example example-gap gap-4">
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+</div>
+```
+<div className="gap-4">
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+  <div>gap 1rem</div>
+</div>
+```
+
+Padding Top and Bottom
+<div className="example-row example">
+  <div className="pt-1 pb-1">
+    <p>Padding 0.5rem</p>
+  </div>
+  <div className="pt-1 pb-1 pl-2">
+    <p>Padding Left 1rem</p>
+  </div>
+  <div className="pt-1 pb-1 pl-3">
+    <p>Padding Left 2rem</p>
+  </div>
+  <div className="pt-1 pb-1 pl-4">
+    <p>Padding Left 4rem</p>
+  </div>
+</div>
+
+```
+<div className="example-row">
+  <div className="px-1">
+    <p>Padding Left 0.5rem</p>
+  </div>
+  <div className="pt-1 pb-1 pl-2">
+    <p>Padding Left 1rem</p>
+  </div>
+  <div className="pt-1 pb-1 pl-3">
+    <p>Padding Left 2rem</p>
+  </div>
+  <div className="pt-1 pb-1 pl-4">
+    <p>Padding Left 4rem</p>
+  </div>
+  <div className="pt-1 pb-1 pl-5">
+    <p>Padding Left 8rem</p>
+  </div>
+  <div className="pt-1 pb-1 pl-6">
+    <p>Padding Left 16rem</p>
+  </div>
+</div>
+```
+<div className="example-row example">
+  <div className="px-1">
+    <p>gap 1rem</p>
+  </div>
+</div>
+<div className="example-row example">
+  <div className="px-2">
+    <p>gap 1rem</p>
+  </div>
+  <div className="pl-2 pt-2 pb-2">
+    <p>gap 1rem</p>
+  </div>
+</div>
+<div className="example-row example">
+  <div className="px-3">
+    <p>gap 1rem</p>
+  </div>
+</div>
+
+Margin Top & Bottom
+
+<div className="example-row">
+  <div className="mx-1">
+    <p>Margin Left 0</p>
+  </div>
+  <div className="mt-1 mb-1 ml-2">
+    <p>Margin Left  1rem</p>
+  </div>
+  <div className="mt-1 mb-1 ml-3">
+    <p>Margin Left 2rem</p>
+  </div>
+  <div className="mt-1 mb-1 ml-4">
+    <p>Margin Left 4rem</p>
+  </div>
+  <div className="mt-1 mb-1 ml-5">
+    <p>Margin Left 8rem</p>
+  </div>
+  <div className="mt-1 mb-1 ml-6">
+    <p>Margin Left 16rem</p>
+  </div>
+</div>
+
+```
+<div className="example-row">
+  <div className="mx-1">
+    <p>Margin Left 0</p>
+  </div>
+  <div className="mt-1 mb-1 ml-2">
+    <p>Margin Left  1rem</p>
+  </div>
+  <div className="mt-1 mb-1 ml-3">
+    <p>Margin Left 2rem</p>
+  </div>
+  <div className="mt-1 mb-1 ml-4">
+    <p>Margin Left 4rem</p>
+  </div>
+  <div className="mt-1 mb-1 ml-5">
+    <p>Margin Left 8rem</p>
+  </div>
+  <div className="mt-1 mb-1 ml-6">
+    <p>Margin Left 16rem</p>
+  </div>
+</div>
+```
+<div className="example-row example">
+  <div className="mx-2">
+    <p>Margin Top/Bottom 1rem</p>
+  </div>
+</div>
+<div className="example-row example">
+  <div className="mx-3">
+    <p>Margin Top/Bottom 2rem</p>
+  </div>
+</div>
+</Unstyled>
