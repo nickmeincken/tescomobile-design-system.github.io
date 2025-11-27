@@ -5,9 +5,9 @@
   font-variant: normal;
   font-display: swap;
   src: local('TESCOModern'),
-  url('./src/assets/fonts/tescomodreg-web.woff2') format('woff2'),
-  url('./src/assets/fonts/tescomodreg-web.woff') format('woff'),
-  url('./src/assets/fonts/tescomodreg-web.ttf') format('truetype')
+  url('../../fonts/tescomodreg-web.woff2') format('woff2'),
+  url('../../fonts/tescomodreg-web.woff') format('woff'),
+  url('../../fonts/tescomodreg-web.ttf') format('truetype')
 }
 
 @font-face {
@@ -17,18 +17,18 @@
   font-variant: normal;
   font-display: swap;
   src: local('TESCOModern'),
-  url('./src/assets/fonts/tescomodbol-web.woff2') format('woff2'),
-  url('./src/assets/fonts/tescomodbol-web.woff') format('woff'),
-  url('./src/assets/fonts/tescomodbol-web.ttf') format('truetype')
+  url('../../fonts/tescomodbol-web.woff2') format('woff2'),
+  url('../../fonts/tescomodbol-web.woff') format('woff'),
+  url('../../fonts/tescomodbol-web.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'tescomobilemag';
   src: local('tescomobilemag'),
-  url('./src/assets/fonts/tescomobilemag.woff') format('woff'),
-  url('./src/assets/fonts/tescomobilemag.ttf') format('truetype'),
-  url('./src/assets/fonts/tescomobilemag.svg#tescomobile') format('svg'),
-  url('./src/assets/fonts/tescomobilemag.eot#iefix') format('embedded-opentype');
+  url('../../fonts/tescomobilemag.woff') format('woff'),
+  url('../../fonts/tescomobilemag.ttf') format('truetype'),
+  url('../../fonts/tescomobilemag.svg#tescomobile') format('svg'),
+  url('../../fonts/tescomobilemag.eot#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -36,11 +36,11 @@
 
 @font-face {
   font-family: 'tescomobile-global-icon';
-  src:  url('./src/assets/fonts/tescomobile-global-icon.eot?92sj7t');
-  src:  url('./src/assets/fonts/tescomobile-global-icon.eot?92sj7t#iefix') format('embedded-opentype'),
-    url('./src/assets/fonts/tescomobile-global-icon.ttf?92sj7t') format('truetype'),
-    url('./src/assets/fonts/tescomobile-global-icon.woff?92sj7t') format('woff'),
-    url('./src/assets/fonts/tescomobile-global-icon.svg?92sj7t#icomoon') format('svg');
+  src:  url('../../fonts/tescomobile-global-icon.eot?92sj7t');
+  src:  url('../../fonts/tescomobile-global-icon.eot?92sj7t#iefix') format('embedded-opentype'),
+    url('../../fonts/tescomobile-global-icon.ttf?92sj7t') format('truetype'),
+    url('../../fonts/tescomobile-global-icon.woff?92sj7t') format('woff'),
+    url('../../fonts/tescomobile-global-icon.svg?92sj7t#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

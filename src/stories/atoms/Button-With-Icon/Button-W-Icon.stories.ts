@@ -2,11 +2,11 @@ import type { Meta, StoryObj } from '@storybook/web-components-vite';
 
 import { fn } from 'storybook/test';
 
-import type { ButtonProps } from './Button';
-import { Button } from './Button';
+import type { ButtonProps } from './Button-W-Icon';
+import { Button } from './Button-W-Icon';
 
 const meta = {
-  title: 'Design System/Atoms/Button',
+  title: 'Design System/Atoms/Button With Icon',
   tags: ['autodocs'],
   render: (args) => Button(args),
   argTypes: {
