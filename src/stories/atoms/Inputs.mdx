@@ -40,6 +40,16 @@ import { Meta, Unstyled } from '@storybook/addon-docs/blocks';
 </div>
 
 <div>
+  <label for="avatar" className="form-label">Choose a profile picture:</label>
+  <input className="form-control" type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+</div>
+
+<div>
+  <label for="colour" className="form-label">Colour</label>
+  <input type="color" id="colour" className="form-control" />
+</div>
+
+<div>
   <label className="form-label">Select</label>
   <select class="form-select" aria-label="Default select example">
     <option selected>Open this select menu</option>
@@ -63,8 +73,6 @@ import { Meta, Unstyled } from '@storybook/addon-docs/blocks';
   <input className="form-check-input" type="checkbox" value="" id="checkDefault" />
   <label className="form-check-label" for="checkDefault">Default checkbox</label>
 </div>
-
 <input className="btn btn-md btn-secondary" type="reset" value="Reset" />
 <input className="btn btn-md btn-primary" type="submit" value="Send Request" />
-
 </Unstyled>
