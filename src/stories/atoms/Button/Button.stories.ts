@@ -25,7 +25,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<ButtonProps>;
 
-export const Primary: Story = {
+export const ButtonPrimary: Story = {
   args: {
     icon: false,
     hierachy: 'primary',
@@ -33,7 +33,7 @@ export const Primary: Story = {
   },
 };
 
-export const Secondary: Story = {
+export const ButtonSecondary: Story = {
   args: {
     icon: false,
     hierachy: 'secondary',
@@ -41,7 +41,7 @@ export const Secondary: Story = {
   },
 };
 
-export const Tertiary: Story = {
+export const ButtonTertiary: Story = {
   args: {
     icon: false,
     hierachy: 'tertiary',
@@ -49,7 +49,7 @@ export const Tertiary: Story = {
   },
 };
 
-export const Icon: Story = {
+export const IconButton: Story = {
   args: {
     icon: true,
     hierachy: 'tertiary',
@@ -57,7 +57,7 @@ export const Icon: Story = {
   },
 };
 
-export const Large: Story = {
+export const LargeButton: Story = {
   args: {
     icon: false,
     size: 'lg',
@@ -65,7 +65,7 @@ export const Large: Story = {
   },
 };
 
-export const Small: Story = {
+export const SmallButton: Story = {
   args: {
     icon: false,
     size: 'sm',
