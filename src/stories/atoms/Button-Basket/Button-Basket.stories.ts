@@ -2,21 +2,21 @@ import type { Meta, StoryObj } from '@storybook/web-components-vite';
 
 import { fn } from 'storybook/test';
 
-import type { ButtonProps } from './Button';
-import { Button } from './Button';
+import type { ButtonProps } from './Button-Basket';
+import { Button } from './Button-Basket';
 
 const meta = {
-  title: 'Design System/Atoms/Button',
+  title: 'Design System/Atoms/Button Basket',
   tags: ['autodocs'],
   render: (args) => Button(args),
   argTypes: {
     hierachy: {
       control: { type: 'select' },
-      options: ['primary', 'secondary', 'tertiary'],
+      options: ['primary', 'secondary'],
     },
-    size: {
+    icon: {
       control: { type: 'select' },
-      options: ['sm', 'md', 'lg'],
+      options: ['shopping-trolley', 'basket', 'upgrade', 'none'],
     },
   },
   args: { onClick: fn() },
@@ -28,6 +28,7 @@ type Story = StoryObj<ButtonProps>;
 export const Primary: Story = {
   args: {
     hierachy: 'primary',
+    icon: 'basket',
     label: 'Button',
   },
 };
@@ -35,35 +36,38 @@ export const Primary: Story = {
 export const Secondary: Story = {
   args: {
     hierachy: 'secondary',
+    icon: 'upgrade',
     label: 'Button',
   },
 };
 
-export const Tertiary: Story = {
+export const NoIcon: Story = {
   args: {
-    hierachy: 'tertiary',
+    hierachy: 'secondary',
     label: 'Button',
   },
 };
 
-export const Icon: Story = {
+export const Upgrade: Story = {
   args: {
-    icon: true,
-    hierachy: 'tertiary',
-    label: 'Button',
+    hierachy: 'secondary',
+    icon: 'upgrade',
+    label: 'Upgrade',
   },
 };
 
-export const Large: Story = {
+export const Basket: Story = {
   args: {
-    size: 'lg',
-    label: 'Button',
+    hierachy: 'primary',
+    icon: 'basket',
+    label: 'Add to Basket',
   },
 };
 
-export const Small: Story = {
+export const Trolley: Story = {
   args: {
-    size: 'sm',
-    label: 'Button',
+    hierachy: 'primary',
+    icon: 'shopping-trolley',
+    label: 'Add to Basket',
   },
 };
