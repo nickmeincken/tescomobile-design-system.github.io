@@ -3,10 +3,11 @@ import { html } from 'lit';
 export interface ButtonProps {
   hierachy?: 'primary' | 'secondary' | 'tertiary';
   size?: 'sm' | 'md' | 'lg';
+  icon?: boolean;
   label: string;
   onClick?: () => void;
 }
-export const Button = ({ hierachy, size, label, onClick }: ButtonProps) => {
+export const Button = ({ hierachy, icon, size, label, onClick }: ButtonProps) => {
   const mode = hierachy;
 
   return html`
@@ -16,6 +17,15 @@ export const Button = ({ hierachy, size, label, onClick }: ButtonProps) => {
       @click=${onClick}
     >
       ${label}
+      ${
+        (() => {
+          if(icon == true) {
+           return html`<svg class="icon"><use xlink:href="./svg/sprite.svg#forward"></use></svg>`
+          } else {
+            return html``
+          }
+        })()
+      }
     </button>
   `;
 };

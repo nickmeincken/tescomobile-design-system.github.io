@@ -7,7 +7,7 @@
 @import './atoms/tescomobile-magento.css';
 @import './atoms/button.css';
 @import './atoms/spacing.css';
-
+@import './atoms/inputs.css';
 
 @import './sb-styles.css';
 
@@ -19,4 +19,8 @@ svg {
 svg.logo {
   width: 130px;
   height: 40px;
+}
+
+* {
+  box-sizing: border-box;
 }

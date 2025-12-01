@@ -1,0 +1,51 @@
+label {
+  display: inline-block;
+}
+
+.form-label {
+  margin-bottom: 1rem;
+}
+
+.form-select,
+.form-control {
+  display: block;
+  font-size: 1.6rem;
+  padding: 0.6rem 1.2rem;
+  width: 100%;
+}
+
+.form-select:focus,
+.form-control:focus {
+  outline: 0;
+}
+
+.form-check-input {
+  margin-right: 1rem;
+}
+
+input[type='reset'],
+input[type='submit'] {
+  margin-bottom: 2rem;
+}
+
+input[type='file'] {
+  padding: 0 0 2rem;
+}
+
+.form-select {
+  appearance: none;
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 1.5rem center;
+  background-size: 2rem;
+  cursor: pointer;}
+
+.form-select option {
+  width: 100%;
+}
