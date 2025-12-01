@@ -25,7 +25,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<ButtonProps>;
 
-export const Primary: Story = {
+export const ButtonPrimary: Story = {
   args: {
     hierachy: 'primary',
     icon: 'basket',
@@ -33,7 +33,7 @@ export const Primary: Story = {
   },
 };
 
-export const Secondary: Story = {
+export const ButtonSecondary: Story = {
   args: {
     hierachy: 'secondary',
     icon: 'upgrade',
@@ -48,15 +48,15 @@ export const NoIcon: Story = {
   },
 };
 
-export const Upgrade: Story = {
+export const IconUpgrade: Story = {
   args: {
     hierachy: 'secondary',
     icon: 'upgrade',
-    label: 'Upgrade',
+    label: 'Upgrade to this phone',
   },
 };
 
-export const Basket: Story = {
+export const IconBasket: Story = {
   args: {
     hierachy: 'primary',
     icon: 'basket',
@@ -64,7 +64,7 @@ export const Basket: Story = {
   },
 };
 
-export const Trolley: Story = {
+export const IconTrolley: Story = {
   args: {
     hierachy: 'primary',
     icon: 'shopping-trolley',

@@ -19,7 +19,7 @@ export const Button = ({ hierachy, label, icon, onClick }: ButtonProps) => {
       ${
         (() => {
           if(icon == 'upgrade') {
-            return html`<svg class="icon"><use xlink:href="./svg/sprite-mag.svg#upgrade"></use></svg>`
+            return html`<svg class="icon"><use xlink:href="./svg/sprite.svg#upgrade"></use></svg>`
           }
           if(icon == 'basket') {
             return html`<svg class="icon"><use xlink:href="./svg/sprite.svg#basket"></use></svg>`
