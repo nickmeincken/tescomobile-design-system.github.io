@@ -31,8 +31,6 @@ export const PhoneSub = () => html`
         <a href="/christmas-deals">Christmas deals</a>
       </li>
     </ul>
-  </li>
-  <li>
     <ul>
       <li>
         <a href="/shop/clubcard-prices">Frozen Clubcard Prices</a>
@@ -51,14 +49,13 @@ export const PhoneSub = () => html`
       </li>
       <li>
         <a href="https://www.tescomobile.com/shop/android">
-        Android phones</a>
+          Android phones
+        </a>
       </li>
       <li>
         <a href="/why-tesco-mobile/phones-for-kids">Phones for kids and teenagers</a>
       </li>
     </ul>
-  </li>
-  <li>
     <ul>
       <li>
         <a href="https://www.tescomobile.com/shop/budget">

@@ -1,0 +1,36 @@
+.algolia-search-block {
+  margin-left: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.algolia-search-block form {
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+.algolia-search-block button {
+  background: transparent;
+  border: none;
+  color: var(--brand);
+  height: 4rem;
+  width: 4rem;
+}
+
+.algolia-search-block .aa-InputWrapperPrefix {
+  display: flex;
+  align-items: center;
+}
+
+.algolia-search-block .aa-SubmitButton {
+  padding: 0;
+}
+
+.algolia-search-block .aa-Input {
+  outline: 2px transparent;
+  background-color: #fff;
+  border: 1px solid silver;
+  height: 4rem;
+  padding: 8px 12px;
+  width: 30rem;
+}

@@ -1,6 +1,6 @@
 import { html } from 'lit';
 import { HelperNav } from './helper-nav';
-
+import { Search } from './search';
 import { PhoneSub } from './submenu/phone';
 import { SimoSub } from './submenu/sim-only';
 import { HelpSub } from './submenu/help';
@@ -39,6 +39,7 @@ ${HelperNav()}
         </li>
       </ul>
     </nav>
+    ${Search()}
   </header>
 </div>
 `;

@@ -61,6 +61,7 @@
 .global-nav nav ul li:hover .submenu {
   display: block;
   font-weight: 400;
+  padding: 2rem 0;
 }
 
 .global-nav nav ul li .submenu .submenu-wrap {
