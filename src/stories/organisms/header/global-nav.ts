@@ -7,6 +7,8 @@ import { HelpSub } from './submenu/help';
 import { BusinessSub } from './submenu/business';
 import { WhySub } from './submenu/why-tm';
 
+export interface PageProps {}
+
 export const GlobalNav = () => html`
 ${HelperNav()}
 <div class="global-nav-wrapper">

@@ -1,7 +1,7 @@
 import { html } from 'lit';
 import { HeroImage } from '../../molecules/HeroImage';
-import { GlobalNav } from '../../molecules/header/global-nav';
-import { GlobalFooter } from '../../molecules/footer/global-footer';
+import { GlobalNav } from '../../organisms/header/global-nav';
+import { GlobalFoot } from '../../organisms/footer/global-footer';
 
 export interface PageProps {}
 
@@ -12,5 +12,5 @@ export const Page = () => html`
     <article>
     </article>
   </main>
-  ${GlobalFooter()}
+  ${GlobalFoot()}
 `;
