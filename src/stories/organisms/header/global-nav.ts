@@ -6,6 +6,9 @@ import { SimoSub } from './submenu/sim-only';
 import { HelpSub } from './submenu/help';
 import { BusinessSub } from './submenu/business';
 import { WhySub } from './submenu/why-tm';
+import { MobileNav } from './mobile-nav';
+
+export interface PageProps {}
 
 export const GlobalNav = () => html`
 ${HelperNav()}
@@ -15,7 +18,7 @@ ${HelperNav()}
       <svg><use xlink:href="./svg/sprite.svg#tescomobile-logo"></use></svg>
       <span>Tesco Mobile</span>
     </a>
-    <nav>
+    <nav class="global-navigation">
       <ul>
         <li>
           <a href="#">Phones</a>
@@ -40,6 +43,7 @@ ${HelperNav()}
       </ul>
     </nav>
     ${Search()}
+    ${MobileNav()}
   </header>
 </div>
 `;

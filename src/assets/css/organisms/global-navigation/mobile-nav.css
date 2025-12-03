@@ -1,0 +1,22 @@
+.global-nav .mobile-nav {
+  align-items: center;
+  margin-left: auto;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .global-nav .mobile-nav {
+    display: none;
+  }
+}
+
+.global-nav .mobile-nav .close {
+  display: none;
+}
+
+.global-nav .mobile-nav .menu {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
