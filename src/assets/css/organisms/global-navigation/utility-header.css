@@ -1,5 +1,12 @@
 .utility-header-wrapper {
   background: #f0ebeb;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .utility-header-wrapper {
+    display: block;
+  }
 }
 
 .utility-header {

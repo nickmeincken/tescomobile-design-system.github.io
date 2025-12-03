@@ -10,8 +10,8 @@
 @import './atoms/spacing.css';
 @import './atoms/inputs.css';
 
-@import './molecules/global-navigation/header.css';
-@import './molecules/global-footer/global-footer.css';
+@import './organisms/global-navigation/header.css';
+@import './organisms/global-footer/global-footer.css';
 @import './molecules/heroimage.css';
 @import './templates/templates.css';
 

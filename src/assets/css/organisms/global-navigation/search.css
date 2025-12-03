@@ -1,9 +1,15 @@
 .algolia-search-block {
-  margin-left: auto;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+  display: none;
 }
+@media (min-width: 768px) {
+  .algolia-search-block {
+    margin-left: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .algolia-search-block form {
   display: flex;
   flex-flow: row-reverse;
