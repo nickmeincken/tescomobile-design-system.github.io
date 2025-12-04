@@ -39,12 +39,13 @@ input[type='file'] {
   font-size: var(--base-font);
   border: 0.1rem solid var(--black);
   border-radius: 0.3rem;
-  background-color: var(--black);
+  background-color: var(--white);
   background-image: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></svg>');
   background-repeat: no-repeat;
   background-position: right 1.5rem center;
   background-size: 2rem;
-  cursor: pointer;}
+  cursor: pointer;
+}
 
 .form-select option {
   width: 100%;

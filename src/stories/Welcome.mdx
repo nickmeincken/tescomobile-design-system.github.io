@@ -10,3 +10,17 @@ import { Meta } from '@storybook/addon-docs/blocks';
 In here we will define a set of reusable styles that are platform agnostic, allowing for portability and ease of use. This should allow developers to focus on on the features and not have to worry about the styling.
 
 We hope to extend on this design library to include as much of the ecosystem as possible.
+
+## Atomic Design
+
+Atomic design is a methodology for building design systems that breaks down user interfaces into a hierarchy of components, starting with atoms (the smallest, fundamental building blocks) and combining them to form more complex structures. This process involves five stages: atoms, molecules, organisms, templates, and pages, with changes at a lower level affecting all higher levels. Coined by Brad Frost, this approach promotes consistency, reusability, and scalability in design.
+
+**Atoms**: The most basic, indivisible UI elements, such as a button, an input field, or a label.
+
+**Molecules**: Simple groups of atoms that function together as a single unit. For example, a search bar made of a label, input field, and button.
+
+**Organisms**: More complex components formed by combining molecules and/or atoms. A website header, for instance, might be an organism that includes a logo, a navigation menu, and a search bar.
+
+**Templates**: Page-level structures that place organisms into a layout. They are essentially placeholders without real content.
+
+**Pages**: The final, high-fidelity version of a template where placeholder content is replaced with actual text and images, creating a complete user interface.

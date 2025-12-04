@@ -2,6 +2,10 @@
   font-weight: 400;
 }
 
+body.sb-show-main.sb-main-padded {
+  padding: 0 !important;
+}
+
 .tm-heading {
   border-bottom: 0.1rem solid grey;
   margin-bottom: 1rem;
