@@ -1,5 +1,5 @@
 :root {
-  --black:                  rba(32, 32, 32);
+  --black:                  rgb(32, 32, 32);
   --gray:                   rgb(105, 105, 105);
   --gray-light:             rgb(235, 235, 235);
   --gray-lighter:           rgb(247, 247, 247);
@@ -38,18 +38,38 @@
   --color-pure-blue:        rgb(0, 0, 255);
   --color-white-smoke:      rgb(246, 246, 246);
 
-  --bodybg:                 var(--color-white-smoke);
-  --fontcolour:             var(--color-grey);
   --link:                   var(--color-blue);
   --linkhover:              var(--color-grey);
   --linkactive:             var(--color-grey);
 
   --gutter-padding:         0;
-  --text-color:             var(--color-grey);
 
   --brand:                  var(--color-blue);
-  --white:                  #fff;
-  --black:                  #000;
+  --bodybg:                 var(--color-white-smoke);
+  --text-color:             var(--color-grey);
+
+  /* Buttons */
+  /* primary */
+  --primary-btn-bg:         var(--color-white);
+  --primary-btn-txt:        var(--color-blue);
+  --primary-btn-bg-hover:   var(--color-blue);
+  --primary-btn-txt-hover:  var(--color-white);
+
+  /* secondary */
+  --secondary-btn-bg:       var(--color-blue);
+  --secondary-btn-txt:      var(--color-white);
+  --secondary-btn-bg-hover: var(--color-white);
+  --secondary-btn-txt-hover:var(--color-blue);
+
+  /* tertiary */
+  --tertiary-btn-bg:        var(--color-red);
+  --tertiary-btn-txt:       var(--color-white);
+
+  /* Cart Buttons */
+  --primary-cart-btn-bg:    var(--color-blue);
+  --primary-cart-btn-txt:   var(--color-online-white);
+  --secondary-cart-btn-bg:  var(--color-white);
+  --secondary-cart-btn-txt: var(--color-blue);
 
   /* Typography */
   --primary-font:           TESCOModern;
@@ -57,6 +77,22 @@
   --font-weight-bold:       700;
   --line-height-base:       1.4;
   --base-font:              1.6rem;
+
+  /* font-sizing */
+  --display1:               calc(var(--base-font) * 4.5);
+  --display2:               calc(var(--base-font) * 4);
+  --display3:               calc(var(--base-font) * 3.5);
+  --head1:                  calc(var(--base-font) * 3);
+  --head2:                  calc(var(--base-font) * 2.5);
+  --head3:                  calc(var(--base-font) * 2);
+  --head4:                  calc(var(--base-font) * 1.5);
+  --head5:                  calc(var(--base-font) * 1.25);
+  --head6:                  var(--base-font);
+  --font-sm:                calc(var(--base-font) * 0.875);
+  --font-md:                var(--base-font);
+  --font-lg:                calc(var(--base-font) * 1.125);
+  --font-xl:                calc(var(--base-font) * 1.25);
+  --font-xxl:               calc(var(--base-font) * 1.375);
 }
 
 html {
@@ -64,8 +100,8 @@ html {
 }
 
 body {
-  background-color: var(--color-white-smoke);
-  color: var(--font-color);
+  background-color: var(--bodybg);
+  color: var(--text-color);
   font-family: var(--primary-font);
   font-size: var(--base-font);
   font-weight: var(--font-weight-normal);

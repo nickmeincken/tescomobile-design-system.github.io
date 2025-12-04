@@ -9,7 +9,7 @@ label {
 .form-select,
 .form-control {
   display: block;
-  font-size: 1.6rem;
+  font-size: var(--base-font);
   padding: 0.6rem 1.2rem;
   width: 100%;
 }
@@ -35,11 +35,11 @@ input[type='file'] {
 .form-select {
   appearance: none;
   width: 100%;
-  padding: 10px 35px 10px 10px;
-  font-size: 16px;
-  border: 1px solid #000;
+  padding: 1rem 3.5rem 1rem 1rem;
+  font-size: var(--base-font);
+  border: 0.1rem solid var(--black);
   border-radius: 0.3rem;
-  background-color: #fff;
+  background-color: var(--black);
   background-image: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></svg>');
   background-repeat: no-repeat;
   background-position: right 1.5rem center;

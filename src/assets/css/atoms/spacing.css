@@ -1,14 +1,14 @@
 :root {
   --0: 0;
   --1: 0.5rem;
-  --2: 1rem;
-  --3: 2rem;
-  --4: 4rem;
-  --5: 8rem;
-  --6: 16rem;
-  --7: 32rem;
-  --8: 64rem;
-  --9: 128rem;
+  --2: calc(var(--1) * 2);
+  --3: calc(var(--1) * 4);
+  --4: calc(var(--1) * 8);
+  --5: calc(var(--1) * 16);
+  --6: calc(var(--1) * 32);
+  --7: calc(var(--1) * 64);
+  --8: calc(var(--1) * 128);
+  --9: calc(var(--1) * 256);
 }
 
 .m-0 {
@@ -261,22 +261,6 @@
   padding: var(--0);
 }
 
-  .pt-0 {
-    padding-top: var(--0);
-  }
-
-  .pb-0 {
-    padding-bottom: var(--0);
-  }
-
-  .pl-0 {
-    padding-left: var(--0);
-  }
-
-  .pr-0 {
-    padding-right: var(--0);
-  }
-
 /* padding Top */
 .pt-0 {
   padding-top: var(--0);
@@ -523,30 +507,39 @@
 .gap-0 {
   gap: var(--0);
 }
+
 .gap-1 {
   gap: var(--1);
 }
+
 .gap-2 {
   gap: var(--2);
 }
+
 .gap-3 {
   gap: var(--3);
 }
+
 .gap-4 {
   gap: var(--4);
 }
+
 .gap-5 {
   gap: var(--5);
 }
+
 .gap-6 {
   gap: var(--6);
 }
+
 .gap-7 {
   gap: var(--7);
 }
+
 .gap-8 {
   gap: var(--8);
 }
+
 .gap-9 {
   gap: var(--9);
 }

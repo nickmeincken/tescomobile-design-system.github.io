@@ -1,49 +1,9 @@
 @import './normalize.css';
 @import './root.css';
-@import './base/helpers.css';
-@import './atoms/fonts.css';
-@import './atoms/typography.css';
-@import './atoms/iconography.css';
-@import './atoms/tescomobile-icons.css';
-@import './atoms/tescomobile-magento.css';
-@import './atoms/button.css';
-@import './atoms/spacing.css';
-@import './atoms/inputs.css';
-
-@import './organisms/global-navigation/header.css';
-@import './organisms/global-footer/global-footer.css';
-@import './molecules/heroimage.css';
+@import './base/base.css';
+@import './atoms/atoms.css';
+@import './organisms/organisms.css';
+@import './molecules/molecules.css';
 @import './templates/templates.css';
 
 @import './sb-styles.css';
-
-* {
-  box-sizing: border-box;
-}
-
-a {
-  color: var(--brand);
-  transition: 0.4s;
-}
-
-svg {
-  height: 2.4rem;
-  width: 2.4rem;
-}
-
-.logo svg {
-  width: 130px;
-  height: 40px;
-}
-
-.logo span {
-  display: block;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
-}

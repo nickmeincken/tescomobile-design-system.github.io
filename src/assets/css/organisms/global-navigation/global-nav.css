@@ -10,7 +10,7 @@
 
 @media (min-width: 768px) {
   .global-nav .global-navigation {
-    display: block;
+    display: flex;
   }
 }
 
