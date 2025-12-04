@@ -1,2 +1,4 @@
-@import './helpers.css';
+@import './normalize.css';
 @import './root.css';
+@import './helpers.css';
+@import './default.css';

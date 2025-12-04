@@ -1,9 +1,5 @@
-@import './normalize.css';
-@import './root.css';
 @import './base/base.css';
 @import './atoms/atoms.css';
 @import './organisms/organisms.css';
 @import './molecules/molecules.css';
 @import './templates/templates.css';
-
-@import './sb-styles.css';
