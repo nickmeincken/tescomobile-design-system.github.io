@@ -1,54 +1,54 @@
-.hero-image {
+.jumbotron {
   position: relative;
 }
 
-.hero-image img {
+.jumbotron img {
   width: 100%;
   display: block;
 }
 
-.hero-image .content {
+.jumbotron .content {
   position: absolute;
   width: 50%;
   padding: 1rem;
 }
 
-.hero-top .content {
+.jumbotron-top .content {
   top: 0;
 }
 
-.hero-middle .content {
+.jumbotron-middle .content {
   top: 0;
   height: 100%;
   display: flex;
   justify-content: center;
 }
 
-.hero-bottom .content {
+.jumbotron-bottom .content {
   bottom: 0;
 }
 
-.hero-bottom .content {
+.jumbotron-bottom .content {
   bottom: 0;
 }
 
-.hero-left .content {
+.jumbotron-left .content {
   left: 0;
 }
 
-.hero-right .content {
+.jumbotron-right .content {
   right: 0;
   text-align: right;
 }
 
-.hero-center .content {
+.jumbotron-center .content {
   width: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 
-.hero-left.hero-middle .content,
-.hero-right.hero-middle .content {
+.jumbotron-left.jumbotron-middle .content,
+.jumbotron-right.jumbotron-middle .content {
   flex-flow: column;
 }

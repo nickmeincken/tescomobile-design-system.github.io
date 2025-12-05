@@ -1,5 +1,5 @@
 import { html } from 'lit';
-import { HeroImage } from '../../molecules/hero-image/HeroImage';
+import { Jumbotron } from '../../molecules/Jumbotron/Jumbotron';
 import { GlobalNav } from '../../organisms/header/global-nav';
 import { GlobalFoot } from '../../organisms/footer/global-footer';
 
@@ -8,7 +8,9 @@ export interface PageProps {}
 export const Page = () => html`
   ${GlobalNav()}
   <main>
-    ${HeroImage({
+    ${Jumbotron({
+      desktopImg: 'https://placehold.co/1280x430/WebP',
+      mobileImg: 'https://placehold.co/366x529/WebP',
       title: 'Hero Title',
       subtitle: 'This is the hero description',
       contentX: "left",
