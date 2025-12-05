@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
 
-import type { HeroProps } from './HeroImage';
-import { HeroImage } from './HeroImage';
+import type { JumbotronProps } from './Jumbotron';
+import { Jumbotron } from './Jumbotron';
 
 const meta : Meta = {
-  title: 'Design System/Molecules/Hero Image',
-  render: (args) => HeroImage(args),
+  title: 'Design System/Molecules/Jumbotron',
+  render: (args) => Jumbotron(args),
   tags: ['autodocs'],
   argTypes: {
     title: {
@@ -22,6 +22,12 @@ const meta : Meta = {
       control: { type: 'select' },
       options: [ 'top', 'middle', 'bottom' ],
     },
+    desktopImg: {
+      control: { type: 'text' },
+    },
+    mobileImg: {
+      control: { type: 'text' },
+    },
   },
   parameters: {
     docs: {
@@ -30,13 +36,15 @@ const meta : Meta = {
       },
     },
   },
-} satisfies Meta<HeroProps>;
+} satisfies Meta<JumbotronProps>;
 
 export default meta;
-type Story = StoryObj<HeroProps>;
+type Story = StoryObj<JumbotronProps>;
 
-export const HeroTopLeft: Story = {
+export const TopLeft: Story = {
   args: {
+    desktopImg: 'https://placehold.co/1280x430/WebP',
+    mobileImg: 'https://placehold.co/366x529/WebP',
     title: 'Hero Title',
     subtitle: 'This is the hero description',
     contentX: 'left',
@@ -44,8 +52,10 @@ export const HeroTopLeft: Story = {
   }
 };
 
-export const HeroTopCenter: Story = {
+export const TopCenter: Story = {
   args: {
+    desktopImg: 'https://placehold.co/1280x430/WebP',
+    mobileImg: 'https://placehold.co/366x529/WebP',
     title: 'Hero Title',
     subtitle: 'This is the hero description',
     contentX: 'center',
@@ -53,8 +63,10 @@ export const HeroTopCenter: Story = {
   }
 };
 
-export const HeroTopRight: Story = {
+export const TopRight: Story = {
   args: {
+    desktopImg: 'https://placehold.co/1280x430/WebP',
+    mobileImg: 'https://placehold.co/366x529/WebP',
     title: 'Hero Title',
     subtitle: 'This is the hero description',
     contentX: 'right',
@@ -62,8 +74,10 @@ export const HeroTopRight: Story = {
   }
 };
 
-export const HeroCenterLeft: Story = {
+export const CenterLeft: Story = {
   args: {
+    desktopImg: 'https://placehold.co/1280x430/WebP',
+    mobileImg: 'https://placehold.co/366x529/WebP',
     title: 'Hero Title',
     subtitle: 'This is the hero description',
     contentX: 'left',
@@ -71,8 +85,10 @@ export const HeroCenterLeft: Story = {
   }
 };
 
-export const HeroCenterMiddle: Story = {
+export const CenterMiddle: Story = {
   args: {
+    desktopImg: 'https://placehold.co/1280x430/WebP',
+    mobileImg: 'https://placehold.co/366x529/WebP',
     title: 'Hero Title',
     subtitle: 'This is the hero description',
     contentX: 'center',
@@ -80,8 +96,10 @@ export const HeroCenterMiddle: Story = {
   }
 };
 
-export const HeroCenterRight: Story = {
+export const CenterRight: Story = {
   args: {
+    desktopImg: 'https://placehold.co/1280x430/WebP',
+    mobileImg: 'https://placehold.co/366x529/WebP',
     title: 'Hero Title',
     subtitle: 'This is the hero description',
     contentX: 'right',
@@ -89,8 +107,10 @@ export const HeroCenterRight: Story = {
   }
 };
 
-export const HeroBottomLeft: Story = {
+export const BottomLeft: Story = {
   args: {
+    desktopImg: 'https://placehold.co/1280x430/WebP',
+    mobileImg: 'https://placehold.co/366x529/WebP',
     title: 'Hero Title',
     subtitle: 'This is the hero description',
     contentX: 'left',
@@ -98,8 +118,10 @@ export const HeroBottomLeft: Story = {
   }
 };
 
-export const HeroBottomCenter: Story = {
+export const BottomCenter: Story = {
   args: {
+    desktopImg: 'https://placehold.co/1280x430/WebP',
+    mobileImg: 'https://placehold.co/366x529/WebP',
     title: 'Hero Title',
     subtitle: 'This is the hero description',
     contentX: 'center',
@@ -107,8 +129,10 @@ export const HeroBottomCenter: Story = {
   }
 };
 
-export const HeroBottomRight: Story = {
+export const BottomRight: Story = {
   args: {
+    desktopImg: 'https://placehold.co/1280x430/WebP',
+    mobileImg: 'https://placehold.co/366x529/WebP',
     title: 'Hero Title',
     subtitle: 'This is the hero description',
     contentX: 'right',
