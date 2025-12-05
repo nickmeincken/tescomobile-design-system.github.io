@@ -17,14 +17,16 @@ export const Jumbotron = ({
   desktopImg,
   mobileImg
 }: JumbotronProps) => html`
-  <header class=${['jumbotron', `jumbotron-${contentX || 'left'}`, `jumbotron-${contentY || 'bottom'}`].join(' ')}>
+  <header class=${['jumbotron', 'lefttoright-gradient', `jumbotron-${contentX || 'left'}`, `jumbotron-${contentY || 'bottom'}`].join(' ')}>
   <picture>
     <source srcset="${desktopImg}" media="(min-width: 768px)" />
     <img src="${mobileImg || "https://placehold.co/366x529/WebP"}" alt="A description of the image." loading="lazy" decoding="async">
   </picture>
     <div class="content">
-      <h2>${title}</h2>
-      <p>${subtitle}</p>
+      <h2 class="display-1">
+        ${title}
+        <small>${subtitle}</small>
+      </h2>
     </div>
   </header>
 `;

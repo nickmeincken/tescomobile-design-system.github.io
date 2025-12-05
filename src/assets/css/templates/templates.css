@@ -10,7 +10,7 @@ main {
   max-width: 117rem;
 }
 
-.container > div {
+/* .container > div {
   background: rgba(0, 0, 255, 0.2);
   text-align: center;
 }
@@ -19,7 +19,7 @@ main {
 .aside section {
   background: rgba(0, 0, 255, 0.2);
   text-align: center;
-}
+} */
 
 .aside {
   grid-template-columns: 30rem 1fr;
